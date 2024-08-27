@@ -7,4 +7,8 @@ export const HomeContainer = styled.div`
   justify-content: center;
   align-items: center;
   display: flex;
+
+  @media (min-width: 240px) and (max-width: 767px) {
+    flex-direction: column;
+  }
 `;
